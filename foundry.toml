@@ -1,0 +1,9 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+[etherscan]
+blacksmith = { key = "${LOCAL_API_KEY}", url = "http://localhost:3000/api/verify" }
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
